@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/anaghvj/WibmoPay'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'hemavathi' => 'hemavathi.panjaksharam@wibmo.com' }
-  s.source           = { :http =>'https://github.com/mypoolin/wibmoPay-ios/blob/master/WibmoPay.zip' }
+  s.source           = { :http =>'https://github.com/mypoolin/wibmoPay-ios/blob/0.1.0/WibmoPay.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'WibmoPay.framework'
   s.source_files = 'WibmoPay/Classes/**/*'
