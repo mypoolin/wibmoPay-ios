@@ -18,19 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+   Note that this is the one that you would need to integrate if you are looking for just a very simple way of collecting money from your customers using a payment gateway (including the options of Credit Card, Debit Card, Net banking, UPI and e-wallets)
                        DESC
 
   s.homepage         = 'https://github.com/anaghvj/WibmoPay'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'anaghvj' => 'hemavathi.panjaksharam@wibmo.com' }
-  s.source           = { :git => 'https://github.com/mypoolin/wibmoPay-ios/blob/master/WibmoPay.zip}
-
+  s.author           = { 'hemavathi' => 'hemavathi.panjaksharam@wibmo.com' }
+  s.source           = { :git => 'https://github.com/mypoolin/wibmoPay-ios/blob/master/WibmoPay.zip,:tag => s.version}
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'WibmoPay.framework'
   s.source_files = 'WibmoPay/Classes/**/*'
-  
   s.resource_bundles = {
     'WibmoPay' => ['WibmoPay/Assets/*.*','WibmoPay/Assets/Images/*.*']
   }
