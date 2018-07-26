@@ -1,0 +1,11 @@
+framework module WibmoPay {
+  umbrella header "WibmoPay-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WibmoPay.Swift {
+    header "WibmoPay-Swift.h"
+    requires objc
+}
