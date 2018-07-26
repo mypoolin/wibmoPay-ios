@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'WibmoPay'
+  s.name             = 'wibmoPay'
   s.version          = '0.1.0'
   s.summary          = 'A short description of WibmoPay.'
 
