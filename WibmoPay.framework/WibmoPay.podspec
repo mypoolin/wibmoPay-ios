@@ -13,12 +13,21 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
    Note that this is the one that you would need to integrate if you are looking for just a very simple way of collecting money from your customers using a payment gateway (including the options of Credit Card, Debit Card, Net banking, UPI and e-wallets)
                        DESC
-  s.homepage         = 'https://github.com/mypoolin/wibmoPay-ios'
-  s.license          = { :type => 'Apache', :file => 'License' }
+  s.homepage         = 'https://github.com/anaghvj/WibmoPay'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hemavathi' => 'hemavathi.panjaksharam@wibmo.com' }
-  s.source           = { :git => 'https://github.com/mypoolin/wibmoPay-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mypoolin/wibmoPay-ios/blob/master/WibmoPay.zip }
   s.ios.deployment_target = '9.0'
-  s.vendored_frameworks = 'WibmoPay.framework'
-  s.dependency 'CryptoSwift'
+  s.ios.vendored_frameworks = 'WibmoPay.framework'
+  s.source_files = 'WibmoPay/Classes/**/*'
+  s.resource_bundles = {
+    'WibmoPay' => ['WibmoPay/Assets/*.*','WibmoPay/Assets/Images/*.*']
+  }
+ s.dependency 'CryptoSwift'
  end
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 
