@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'wibmoPay'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of WibmoPay.'
   s.description      = <<-DESC
    Note that this is the one that you would need to integrate if you are looking for just a very simple way of collecting money from your customers using a payment gateway (including the options of Credit Card, Debit Card, Net banking, UPI and e-wallets)
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hemavathi' => 'hemavathi.panjaksharam@wibmo.com' }
   s.source           = { :git => 'https://github.com/mypoolin/wibmoPay-ios/blob/master/WibmoPay.zip }
+  s.swift_version    = '4.1'
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'WibmoPay.framework'
   s.source_files = 'WibmoPay/Classes/**/*'
