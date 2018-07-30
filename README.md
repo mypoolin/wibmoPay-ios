@@ -137,4 +137,3 @@ print(error.localizedDescription)
 ### Step 7.
 After Integration is completed! and when merchant app is going live to App store before that merchant has to execute the below script to remove the .a file of simulator slice which was generated and added in the SDK pod file.
 `Update this very soon`.
-
