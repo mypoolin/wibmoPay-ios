@@ -136,7 +136,6 @@ We have added Completion Handler for receiving response and error from the SDK, 
 ```
 ### Note.
 Follow the below steps if any error/issues related to archiving
--  Disable bit-code setting if any  error encounter during archiving.
 -  Go to root project and go to `Build Phase` and click on `+` symbol and select `New Run Script Phase` and the copy paste the below script inside `run script` before releasing the app to app store.
 - link to find the script:
 `http://ikennd.ac/blog/2015/02/stripping-unwanted-architectures-from-dynamic-libraries-in-xcode/`
