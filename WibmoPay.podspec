@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint wibmoPay.podspec' to ensure this is a
+# Be sure to run `pod lib lint WibmoPay.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'wibmoPay'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'WibmoPay iOS SDK is a very simple payment gateway for collecting money from customers.'
   s.description      = <<-DESC
    Note that this is the one that you would need to integrate if you are looking for just a very simple way of collecting money from your customers using a payment gateway (including the options of Credit Card, Debit Card, Net banking, UPI and e-wallets)
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.swift_version    = '4.1'
   s.ios.deployment_target = '9.0'
   s.vendored_frameworks = 'WibmoPay.framework'
-  s.dependency 'CryptoSwift'
+  s.dependency 'CryptoSwift','~> 0.9.0'
  end
 
