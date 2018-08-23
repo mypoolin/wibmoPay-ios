@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'wibmoPay'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'WibmoPay iOS SDK is a very simple payment gateway for collecting money from customers.'
   s.description      = <<-DESC
    Note that this is the one that you would need to integrate if you are looking for just a very simple way of collecting money from your customers using a payment gateway (including the options of Credit Card, Debit Card, Net banking, UPI and e-wallets)
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'WibmoPay' => ['WibmoPay/Assets/*.*','WibmoPay/Assets/Images/*.*']
   }
- s.dependency 'CryptoSwift'
+ s.dependency 'CryptoSwift', '~> 0.9.0'
  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

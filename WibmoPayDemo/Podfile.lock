@@ -1,23 +1,20 @@
 PODS:
   - CryptoSwift (0.10.0)
-  - wibmoPay (0.1.2):
+  - wibmoPay (0.1.5):
     - CryptoSwift
 
 DEPENDENCIES:
-  - wibmoPay (from `/Users/hemavathi/Desktop/WibmoPaySDK/`)
+  - wibmoPay
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CryptoSwift
-
-EXTERNAL SOURCES:
-  wibmoPay:
-    :podspec: "/Users/hemavathi/Desktop/WibmoPaySDK/"
+    - wibmoPay
 
 SPEC CHECKSUMS:
   CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
-  wibmoPay: c61b7f910c7f9ffc78de280e6ce43c82de3e5f9f
+  wibmoPay: df927b8c923f08a44d0b79e6832f101e7b77639e
 
-PODFILE CHECKSUM: 7e3fb0e58275760f7d96184e9a47396bd442ded0
+PODFILE CHECKSUM: 48ba592e21044b82a8e34aafe029cbf407b44bf6
 
 COCOAPODS: 1.5.2
